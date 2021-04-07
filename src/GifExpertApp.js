@@ -7,9 +7,6 @@ export const GifExpertApp = () => {
     "Twenty One Pilots",
     "React",
   ]);
-  const handleAdd = () => {
-    setCategories((oldCategories) => [...oldCategories, "NF"]);
-  };
   return (
     <div>
       <h2>GifExpertApp</h2>
