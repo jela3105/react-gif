@@ -23,11 +23,13 @@ export const GifGrid = ({ category }) => {
   };
   //  getGifs();
   return (
-    <div>
+    <>
       <h3>{category}</h3>
-      {images.map((img) => (
-        <GifGridItem {...img} />
-      ))}
-    </div>
+      <div className="card-grid">
+        {images.map((img) => (
+          <GifGridItem {...img} />
+        ))}
+      </div>
+    </>
   );
 };
